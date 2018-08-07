@@ -12,8 +12,6 @@
 		2EFA2B8B2119B2A80061154B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EFA2B8A2119B2A80061154B /* Assets.xcassets */; };
 		2EFA2B8E2119B2A80061154B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFA2B8C2119B2A80061154B /* LaunchScreen.storyboard */; };
 		2EFA2B912119B2A80061154B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFA2B902119B2A80061154B /* main.m */; };
-		2EFA2B9B2119B2A80061154B /* LottieViewMagerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFA2B9A2119B2A80061154B /* LottieViewMagerExampleTests.m */; };
-		2EFA2BA62119B2A80061154B /* LottieViewMagerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFA2BA52119B2A80061154B /* LottieViewMagerExampleUITests.m */; };
 		2EFA2BC32119B2EC0061154B /* UIViewController+DKProgressHUDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFA2BB72119B2EC0061154B /* UIViewController+DKProgressHUDExtension.m */; };
 		2EFA2BC42119B2EC0061154B /* DKCallbackMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFA2BB92119B2EC0061154B /* DKCallbackMessage.m */; };
 		2EFA2BC52119B2EC0061154B /* LottieViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFA2BBB2119B2EC0061154B /* LottieViewManager.m */; };
@@ -28,23 +26,6 @@
 		6F17937E8B6205892702BABB /* libPods-LottieViewMagerExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DEF581C0EC08E81A0E1199 /* libPods-LottieViewMagerExample.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2EFA2B972119B2A80061154B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2EFA2B762119B2A80061154B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2EFA2B7D2119B2A80061154B;
-			remoteInfo = LottieViewMagerExample;
-		};
-		2EFA2BA22119B2A80061154B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2EFA2B762119B2A80061154B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2EFA2B7D2119B2A80061154B;
-			remoteInfo = LottieViewMagerExample;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		2EFA2B7E2119B2A80061154B /* LottieViewMagerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieViewMagerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFA2B812119B2A80061154B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,12 +35,6 @@
 		2EFA2B8D2119B2A80061154B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EFA2B8F2119B2A80061154B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EFA2B902119B2A80061154B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2EFA2B962119B2A80061154B /* LottieViewMagerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottieViewMagerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EFA2B9A2119B2A80061154B /* LottieViewMagerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LottieViewMagerExampleTests.m; sourceTree = "<group>"; };
-		2EFA2B9C2119B2A80061154B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EFA2BA12119B2A80061154B /* LottieViewMagerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottieViewMagerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EFA2BA52119B2A80061154B /* LottieViewMagerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LottieViewMagerExampleUITests.m; sourceTree = "<group>"; };
-		2EFA2BA72119B2A80061154B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EFA2BB42119B2EC0061154B /* DKProgressHUD+CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DKProgressHUD+CustomView.h"; sourceTree = "<group>"; };
 		2EFA2BB52119B2EC0061154B /* LottieViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LottieViewManager.h; sourceTree = "<group>"; };
 		2EFA2BB62119B2EC0061154B /* DKProgressHUDConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProgressHUDConst.h; sourceTree = "<group>"; };
@@ -94,20 +69,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2EFA2B932119B2A80061154B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2EFA2B9E2119B2A80061154B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -115,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				2EFA2B802119B2A80061154B /* LottieViewMagerExample */,
-				2EFA2B992119B2A80061154B /* LottieViewMagerExampleTests */,
-				2EFA2BA42119B2A80061154B /* LottieViewMagerExampleUITests */,
 				2EFA2B7F2119B2A80061154B /* Products */,
 				8D4DE819279BD9B9103BE03D /* Pods */,
 				AEDF374381B7FFCE080D644A /* Frameworks */,
@@ -127,8 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				2EFA2B7E2119B2A80061154B /* LottieViewMagerExample.app */,
-				2EFA2B962119B2A80061154B /* LottieViewMagerExampleTests.xctest */,
-				2EFA2BA12119B2A80061154B /* LottieViewMagerExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,24 +108,6 @@
 				2EFA2B902119B2A80061154B /* main.m */,
 			);
 			path = LottieViewMagerExample;
-			sourceTree = "<group>";
-		};
-		2EFA2B992119B2A80061154B /* LottieViewMagerExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				2EFA2B9A2119B2A80061154B /* LottieViewMagerExampleTests.m */,
-				2EFA2B9C2119B2A80061154B /* Info.plist */,
-			);
-			path = LottieViewMagerExampleTests;
-			sourceTree = "<group>";
-		};
-		2EFA2BA42119B2A80061154B /* LottieViewMagerExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2EFA2BA52119B2A80061154B /* LottieViewMagerExampleUITests.m */,
-				2EFA2BA72119B2A80061154B /* Info.plist */,
-			);
-			path = LottieViewMagerExampleUITests;
 			sourceTree = "<group>";
 		};
 		2EFA2BB32119B2EC0061154B /* LottieViewMager */ = {
@@ -231,42 +170,6 @@
 			productReference = 2EFA2B7E2119B2A80061154B /* LottieViewMagerExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2EFA2B952119B2A80061154B /* LottieViewMagerExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2EFA2BAD2119B2A80061154B /* Build configuration list for PBXNativeTarget "LottieViewMagerExampleTests" */;
-			buildPhases = (
-				2EFA2B922119B2A80061154B /* Sources */,
-				2EFA2B932119B2A80061154B /* Frameworks */,
-				2EFA2B942119B2A80061154B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2EFA2B982119B2A80061154B /* PBXTargetDependency */,
-			);
-			name = LottieViewMagerExampleTests;
-			productName = LottieViewMagerExampleTests;
-			productReference = 2EFA2B962119B2A80061154B /* LottieViewMagerExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2EFA2BA02119B2A80061154B /* LottieViewMagerExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2EFA2BB02119B2A80061154B /* Build configuration list for PBXNativeTarget "LottieViewMagerExampleUITests" */;
-			buildPhases = (
-				2EFA2B9D2119B2A80061154B /* Sources */,
-				2EFA2B9E2119B2A80061154B /* Frameworks */,
-				2EFA2B9F2119B2A80061154B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2EFA2BA32119B2A80061154B /* PBXTargetDependency */,
-			);
-			name = LottieViewMagerExampleUITests;
-			productName = LottieViewMagerExampleUITests;
-			productReference = 2EFA2BA12119B2A80061154B /* LottieViewMagerExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -278,14 +181,6 @@
 				TargetAttributes = {
 					2EFA2B7D2119B2A80061154B = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					2EFA2B952119B2A80061154B = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 2EFA2B7D2119B2A80061154B;
-					};
-					2EFA2BA02119B2A80061154B = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 2EFA2B7D2119B2A80061154B;
 					};
 				};
 			};
@@ -303,8 +198,6 @@
 			projectRoot = "";
 			targets = (
 				2EFA2B7D2119B2A80061154B /* LottieViewMagerExample */,
-				2EFA2B952119B2A80061154B /* LottieViewMagerExampleTests */,
-				2EFA2BA02119B2A80061154B /* LottieViewMagerExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -319,20 +212,6 @@
 				2EFA2B8B2119B2A80061154B /* Assets.xcassets in Resources */,
 				2EFA2BCC2119B41B0061154B /* vio.json in Resources */,
 				2EFA2B892119B2A80061154B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2EFA2B942119B2A80061154B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2EFA2B9F2119B2A80061154B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,36 +257,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2EFA2B922119B2A80061154B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2EFA2B9B2119B2A80061154B /* LottieViewMagerExampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2EFA2B9D2119B2A80061154B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2EFA2BA62119B2A80061154B /* LottieViewMagerExampleUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2EFA2B982119B2A80061154B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2EFA2B7D2119B2A80061154B /* LottieViewMagerExample */;
-			targetProxy = 2EFA2B972119B2A80061154B /* PBXContainerItemProxy */;
-		};
-		2EFA2BA32119B2A80061154B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2EFA2B7D2119B2A80061154B /* LottieViewMagerExample */;
-			targetProxy = 2EFA2BA22119B2A80061154B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2EFA2B872119B2A80061154B /* Main.storyboard */ = {
@@ -573,76 +423,6 @@
 			};
 			name = Release;
 		};
-		2EFA2BAE2119B2A80061154B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LottieViewMagerExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.VioWpaper.cn.LottieViewMagerExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottieViewMagerExample.app/LottieViewMagerExample";
-			};
-			name = Debug;
-		};
-		2EFA2BAF2119B2A80061154B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LottieViewMagerExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.VioWpaper.cn.LottieViewMagerExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottieViewMagerExample.app/LottieViewMagerExample";
-			};
-			name = Release;
-		};
-		2EFA2BB12119B2A80061154B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LottieViewMagerExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.VioWpaper.cn.LottieViewMagerExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LottieViewMagerExample;
-			};
-			name = Debug;
-		};
-		2EFA2BB22119B2A80061154B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LottieViewMagerExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.VioWpaper.cn.LottieViewMagerExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LottieViewMagerExample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -660,24 +440,6 @@
 			buildConfigurations = (
 				2EFA2BAB2119B2A80061154B /* Debug */,
 				2EFA2BAC2119B2A80061154B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2EFA2BAD2119B2A80061154B /* Build configuration list for PBXNativeTarget "LottieViewMagerExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2EFA2BAE2119B2A80061154B /* Debug */,
-				2EFA2BAF2119B2A80061154B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2EFA2BB02119B2A80061154B /* Build configuration list for PBXNativeTarget "LottieViewMagerExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2EFA2BB12119B2A80061154B /* Debug */,
-				2EFA2BB22119B2A80061154B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
