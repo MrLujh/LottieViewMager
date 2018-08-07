@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+target 'LottieViewMagerExample' do
+
+
+ 
+
+pod 'lottie-ios'
+
+
+ end
