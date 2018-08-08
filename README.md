@@ -49,4 +49,6 @@ rm ~/Library/Caches/CocoaPods/search_index.json
 
 ## 详细用法可以下载demo
 
+*  json格式动画下载链接：https://www.lottiefiles.com/aep
+
 * ![Mou icon](https://github.com/MrLujh/LottieViewMager/blob/master/Untitled.gif)
