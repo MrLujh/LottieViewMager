@@ -25,7 +25,7 @@ rm ~/Library/Caches/CocoaPods/search_index.json
 // loading大小是默认
     LottieViewManager *hud = [LottieViewManager showHUDAddedTo:self.navigationController.view animated:YES animationJson:@"vio"];
     
-// 控制loading 的大小
+// 控制loading 的大小  vio是本地json格式的动画数据
 //    LottieViewManager *hud = [LottieViewManager showHUDAddedTo:self.navigationController.view animated:YES frame:CGRectMake(0, 0, 0, 0) animationJson:@"vio"];
     self.hud = hud;
 }
