@@ -49,4 +49,4 @@ rm ~/Library/Caches/CocoaPods/search_index.json
 
 ## 详细用法可以下载demo
 
-
+* ![Mou icon](https://github.com/daniulaolu/lujhPrivate/blob/master/lujhPrivate.gif)
