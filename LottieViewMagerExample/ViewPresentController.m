@@ -1,46 +1,42 @@
 //
-//  RootViewController.m
+//  ViewPresentController.m
 //  LottieViewMagerExample
 //
-//  Created by lujh on 2018/8/7.
+//  Created by lujh on 2018/8/13.
 //  Copyright © 2018年 Vio Wpaper. All rights reserved.
 //
 
-#import "RootViewController.h"
 #import "ViewPresentController.h"
-#import "NavController.h"
-#import "PresentNoNavbarController.h"
-@interface RootViewController ()
+
+@interface ViewPresentController ()
 
 @end
 
-@implementation RootViewController
+@implementation ViewPresentController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.title = @"LottieViewMager json动画";
+    self.title = @"带导航栏";
+    
+    UIBarButtonItem *vioBtn = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"icons8-left_4"]imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate] style:UIBarButtonItemStylePlain target:self action:@selector(vioBtn)];
+    vioBtn.tintColor = [UIColor blackColor];
+    self.navigationItem.leftBarButtonItem = vioBtn;
     
     [self showLoadingView];
     
+    self.view.backgroundColor = [UIColor greenColor];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10* NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
         [self hideLoadingView];
         
     });
 }
-- (IBAction)presentClick:(UIButton *)sender {
+- (void)vioBtn{
     
-    ViewPresentController *vc = [[ViewPresentController alloc] init];
-    NavController *nav = [[NavController alloc] initWithRootViewController:vc];
-    [self presentViewController:nav animated:YES completion:nil];
-}
-- (IBAction)presentNoBarClick:(UIButton *)sender {
-    
-    PresentNoNavbarController *vc = [[PresentNoNavbarController alloc] init];
-    NavController *nav = [[NavController alloc] initWithRootViewController:vc];
-    [self presentViewController:nav animated:YES completion:nil];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

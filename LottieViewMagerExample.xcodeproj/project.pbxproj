@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E1CE13C2121847600E7711C /* ViewPresentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1CE13B2121847600E7711C /* ViewPresentController.m */; };
+		2E1CE14221218BFA00E7711C /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1CE14121218BFA00E7711C /* NavController.m */; };
+		2E1CE14521218C9400E7711C /* PresentNoNavbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1CE14421218C9400E7711C /* PresentNoNavbarController.m */; };
 		2EFA2B832119B2A80061154B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFA2B822119B2A80061154B /* AppDelegate.m */; };
 		2EFA2B892119B2A80061154B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFA2B872119B2A80061154B /* Main.storyboard */; };
 		2EFA2B8B2119B2A80061154B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EFA2B8A2119B2A80061154B /* Assets.xcassets */; };
@@ -27,6 +30,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E1CE13A2121847600E7711C /* ViewPresentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewPresentController.h; sourceTree = "<group>"; };
+		2E1CE13B2121847600E7711C /* ViewPresentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewPresentController.m; sourceTree = "<group>"; };
+		2E1CE14021218BFA00E7711C /* NavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		2E1CE14121218BFA00E7711C /* NavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		2E1CE14321218C9400E7711C /* PresentNoNavbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentNoNavbarController.h; sourceTree = "<group>"; };
+		2E1CE14421218C9400E7711C /* PresentNoNavbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentNoNavbarController.m; sourceTree = "<group>"; };
 		2EFA2B7E2119B2A80061154B /* LottieViewMagerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieViewMagerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFA2B812119B2A80061154B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2EFA2B822119B2A80061154B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,6 +109,12 @@
 				2EFA2BCE2119B4CF0061154B /* BSViewController.m */,
 				2EFA2BD02119B4E20061154B /* RootViewController.h */,
 				2EFA2BD12119B4E20061154B /* RootViewController.m */,
+				2E1CE13A2121847600E7711C /* ViewPresentController.h */,
+				2E1CE13B2121847600E7711C /* ViewPresentController.m */,
+				2E1CE14321218C9400E7711C /* PresentNoNavbarController.h */,
+				2E1CE14421218C9400E7711C /* PresentNoNavbarController.m */,
+				2E1CE14021218BFA00E7711C /* NavController.h */,
+				2E1CE14121218BFA00E7711C /* NavController.m */,
 				2EFA2B872119B2A80061154B /* Main.storyboard */,
 				2EFA2B8A2119B2A80061154B /* Assets.xcassets */,
 				2EFA2B8C2119B2A80061154B /* LaunchScreen.storyboard */,
@@ -246,6 +261,7 @@
 				2EFA2BC52119B2EC0061154B /* LottieViewManager.m in Sources */,
 				2EFA2BD22119B4E20061154B /* RootViewController.m in Sources */,
 				2EFA2B912119B2A80061154B /* main.m in Sources */,
+				2E1CE14221218BFA00E7711C /* NavController.m in Sources */,
 				2EFA2BC82119B2EC0061154B /* DKProgressHUDConst.m in Sources */,
 				2EFA2BC32119B2EC0061154B /* UIViewController+DKProgressHUDExtension.m in Sources */,
 				2EFA2B832119B2A80061154B /* AppDelegate.m in Sources */,
@@ -253,6 +269,8 @@
 				2EFA2BCA2119B2EC0061154B /* DKProgressHUD.m in Sources */,
 				2EFA2BC42119B2EC0061154B /* DKCallbackMessage.m in Sources */,
 				2EFA2BC92119B2EC0061154B /* LottieView.m in Sources */,
+				2E1CE13C2121847600E7711C /* ViewPresentController.m in Sources */,
+				2E1CE14521218C9400E7711C /* PresentNoNavbarController.m in Sources */,
 				2EFA2BCF2119B4CF0061154B /* BSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,12 +413,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M422A22FH;
 				INFOPLIST_FILE = LottieViewMagerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.VioWpaper.cn.LottieViewMagerExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VioWpaper.cn111432534;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -412,12 +432,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M422A22FH;
 				INFOPLIST_FILE = LottieViewMagerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.VioWpaper.cn.LottieViewMagerExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VioWpaper.cn111432534;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
