@@ -52,3 +52,4 @@ rm ~/Library/Caches/CocoaPods/search_index.json
 *  json格式动画下载链接：https://www.lottiefiles.com/aep
 
 * ![Mou icon](https://github.com/MrLujh/LottieViewMager/blob/master/Untitled.gif)
+Untitled.gif
