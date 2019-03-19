@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name        = 'LottieViewMager'
-s.version     = '0.0.1'
+s.version     = '0.0.2'
 s.authors     = { 'MrLujh' => '287929070@qq.com' }
 s.homepage    = 'https://github.com/MrLujh/LottieViewMager'
 s.summary     = 'LottieViewMager'
@@ -12,5 +12,5 @@ s.requires_arc = true
 
 s.source_files = 'LottieViewMager/**/*.{h,m}'
 s.ios.deployment_target = '7.0'
-s.dependency 'lottie-ios'
+s.dependency 'lottie-ios', '<= 3.0'
 end
