@@ -12,5 +12,5 @@ s.requires_arc = true
 
 s.source_files = 'LottieViewMager/**/*.{h,m}'
 s.ios.deployment_target = '7.0'
-s.dependency 'lottie-ios'
+s.dependency 'lottie-ios', '~> 2.5.3'
 end
